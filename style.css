@@ -12,19 +12,25 @@ body, html{
     align-items: center;
 }
 .main-cadastro{
+    display: flex;
+    align-items: center;
+    
     color: white;
     position: relative;
-    display: inline-block;
     background-image: url(img/Sec1.png);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
 }
 .texto-container{
-    height: 100%;   
-    width: 100%;
+    
+    flex-wrap: wrap;
+    padding: 80px;
+    width: 30%;
     bottom: 50%;
     color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: lighter;
  }
 #imagem-main{
     background-image: url(img/image\ 2.png);
@@ -34,7 +40,14 @@ body, html{
     background-repeat: no-repeat;
 }
 #texto-main{
-    font-family: poppins, sans-serif;
+    font-family: montserrat, sans-serif;
+    font-weight: lighter;
+}
+button{
+    background-color: rgba(48, 108, 180, 1);
+    border: solid;
+    border-radius: 5px;
+    border-color: blue;
 }
 
 #logo1{
