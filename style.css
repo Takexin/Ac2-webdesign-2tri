@@ -14,13 +14,13 @@ body, html{
 .main-cadastro{
     display: flex;
     align-items: center;
-    
     color: white;
     position: relative;
     background-image: url(img/Sec1.png);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .texto-container{
     
@@ -29,25 +29,38 @@ body, html{
     width: 30%;
     bottom: 50%;
     color: white;
-    font-family: montserrat, sans-serif;
-    font-weight: lighter;
  }
-#imagem-main{
-    background-image: url(img/image\ 2.png);
-    width: 1280px;
-    height: 712px;
-    box-shadow: inset 0px 0px 30px rgb(0, 0, 0);
-    background-repeat: no-repeat;
-}
-#texto-main{
+ .texto-main{
     font-family: montserrat, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
 }
+.gatos{
+    padding: 80px;
+}
+.gatos-img{
+    display: flex;
+    justify-content: space-around   ;
+}
+.cadastro{
+    padding: 80px;
+    background-image: url(img/Group\ 8.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
 button{
     background-color: rgba(48, 108, 180, 1);
     border: solid;
     border-radius: 5px;
     border-color: blue;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-family: montserrat, sans-serif;
+    font-weight: normal;
 }
 
 #logo1{
