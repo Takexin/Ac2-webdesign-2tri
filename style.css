@@ -1,5 +1,20 @@
+*, 
+*:after,
+*:before {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
 body, html{
     height: 100%;
+}
+a{
+    font-size: 20px;
+    align-self: flex-end;
 }
 
 .poppins-thin{
@@ -8,8 +23,10 @@ body, html{
 .header{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
+    
 }
 .main-cadastro{
     display: flex;
@@ -26,7 +43,7 @@ body, html{
     
     flex-wrap: wrap;
     padding: 80px;
-    width: 30%;
+    width: 40%;
     bottom: 50%;
     color: white;
  }
@@ -35,20 +52,38 @@ body, html{
     font-weight: normal;
 }
 .gatos{
+    display: flex;
+    flex-direction: column;
     padding: 80px;
+    width: 100%;
 }
 .gatos-img{
     display: flex;
-    justify-content: space-around   ;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .cadastro{
-    padding: 80px;
     background-image: url(img/Group\ 8.png);
-    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+    padding: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: #55216E;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 50%;
 }
 
 button{
@@ -65,4 +100,25 @@ button{
 
 #logo1{
     align-items: end;
+}
+input{
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    height: 35px;
+    padding: 0 30px;
+    outline: none;
+}
+
+#concluir{
+    height: 40px;
+    background-color: #FFCB05;
+    border: solid;
+    border-color: darkgoldenrod;
+    font-weight: 1000;
+    color: white;
+}
+#nav-footer{
+    width: 30%;
+    padding: 30px ;
 }
